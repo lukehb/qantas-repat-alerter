@@ -1,1 +1,1 @@
-docker build -t qantas-alerter-app .
+docker build -t lukebermingham/qantas-alerter-app .

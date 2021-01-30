@@ -12,7 +12,7 @@ ALERT_URL = 'https://maker.ifttt.com/trigger/page_updated/with/key/{key}'
 PREV_TEXT = None
 REQUEST_FREQUENCY_SECS = 60
 
-# Get the GITHUB key that is passed in on the command line, or else, fail out.
+# Get the IFTTT key that is passed in on the command line.
 IFTTT_KEY = None
 parser = argparse.ArgumentParser(description="Checks QANTAS website for updates about repatriation flights from UK to Aus.")
 parser.add_argument("-k","--key", help="IFTTT webhook key to trigger alerts using my phone.", required=True)
